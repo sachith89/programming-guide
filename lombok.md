@@ -46,21 +46,21 @@ continues
   * Generates a constructor for all fields that are final or marked @NonNull
   * Constructor will throw a NullPointerException if any @NonNull fields are null 
 * @AllArgsConstructor
- * Generates a constructor for all properties of class
- * Any @NotNull properties will have null checks
+  * Generates a constructor for all properties of class
+  * Any @NotNull properties will have null checks
 * @Data
- * Generates typical boilerplate code for POJOs
- * Combines - @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor
- * No constructor is generated if constructors have been explicitly declared
+  * Generates typical boilerplate code for POJOs
+  * Combines - @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor
+  * No constructor is generated if constructors have been explicitly declared
 * @Value
- * The immutable variant of @Data
- * All fields are made private and final by default
+  * The immutable variant of @Data
+  * All fields are made private and final by default
 * @NonNull
- * Set on parameter of method or constructor and a NullPointerException will be thrown if
+  * Set on parameter of method or constructor and a NullPointerException will be thrown if
 parameter is null
 * @Builder
- * Implements the ‘builder’ pattern for object creation
- * Person.builder().name("Adam Savage").city("San Francisco").job("Mythbusters").job("Unchained
+  * Implements the ‘builder’ pattern for object creation
+  * Person.builder().name("Adam Savage").city("San Francisco").job("Mythbusters").job("Unchained
 Reaction”).build();
 * @SneakyThrows
  * Throw checked exceptions without declaring in calling method’s throws clause
