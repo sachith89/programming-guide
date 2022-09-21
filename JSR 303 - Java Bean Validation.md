@@ -1,4 +1,4 @@
-# JSR 303 - Java Bean Validation #
+## JSR 303 - Java Bean Validation ##
 
 * JSR 303 Introduced Java Bean Validation (Version 1.0)
 * Set of annotations used to validate Java Bean properties
@@ -8,7 +8,7 @@
 * Primary focus was to define annotations for data validation
 * Largely field level properties 
 
-# JSR 349 Bean Validation 1.1 # 
+## JSR 349 Bean Validation 1.1 ## 
 * JSR 349 - Java Bean Validation 1.1 released on April 10th, 2013.
 * JEE v7, Spring Framework 4
 * Builds upon 1.0 specification
@@ -16,7 +16,7 @@
 * To validate input parameters
 * Includes dependency injection for bean validation components
 
-# JSR 380 - Bean Validation 2.0 #
+## JSR 380 - Bean Validation 2.0 ##
 * Approved August 2017
 * Added to Spring Framework 5.0 RC2
 * Available in Spring Boot 2.0.0 +
