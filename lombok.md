@@ -63,12 +63,12 @@ parameter is null
   * Person.builder().name("Adam Savage").city("San Francisco").job("Mythbusters").job("Unchained
 Reaction”).build();
 * @SneakyThrows
- * Throw checked exceptions without declaring in calling method’s throws clause
+  * Throw checked exceptions without declaring in calling method’s throws clause
 * @Syncronized
- * A safer implementation of Java’s synchronized
+  * A safer implementation of Java’s synchronized
 * @Getter(lazy = true) - for expensive getters
- * Will calculate value first time and cache
- * Additional gets will read from cache
+  * Will calculate value first time and cache
+  * Additional gets will read from cache
 * @Log - Creates a Java util logger - Java util loggers are awful
 * @Slf4j - Creates a SLF4J logger.
 * Recommended - SLF4J is a generic logging facade
