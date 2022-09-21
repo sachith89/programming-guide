@@ -50,6 +50,23 @@
 * @Email - Checks if string value is an email address
 
 ## Hiberate Validator Constraints ##
+* @ScriptAssert - Class level annotation, checks class against script
+* @CreditCardNumber - Verifies value is a credit card number
+* @Currency - Valid currency amount
+* @DurationMax - Duration less than given value
+* @DurationMin - Duration greater than given value
+* @EAN - Valid EAN barcode
+* @ISBN - Valid ISBN value
+* @Length - String length between given min and max
+* @CodePointLength - Validates that code point length of the annotated character sequence is
+between min and max included.
+* @LuhnCheck - Luhn check sum
+* @Mod10Check - Mod 10 check sum
+* @Mod11Check - Mod 11 check sum
+* @Range - checks if number is between given min and max (inclusive)
+* @SafeHtml - Checks for safe HTML
+* @UniqueElements - Checks if collection has unique elements
+* @Url - checks for valid URL
 
 
 
