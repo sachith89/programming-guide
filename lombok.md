@@ -1,11 +1,11 @@
-Project Lombok History
+## Project Lombok History
 • Started by Reinier Zwitserloot - @surial on Twitter and Roel Spilker before 2009
 • Why “Lombok”? Java is also an island in Indonesia. Lombok is the second island east of the Island
 Java.
 • Lombok is also Indonesian for chilli.
 • Hence tag line - “Spicing up your Java”
 
-How Lombok Works
+## How Lombok Works
 • Hooks in via the Annotation processor API
 • The AST (raw source code) is passed to Lombok for code generation before the Java complier
 continues
@@ -13,7 +13,7 @@ continues
 • Under the ‘target/classes’ you can view the complied class files
 • IntelliJ will decompile to show you the source code
 
-Project Lombok and IDEs
+## Project Lombok and IDEs
 • Since compiled code is change, and source files are not, IDE’s can get confused by this.
 • More of an issue for IDEs several years old.
 • Modern IDEs such as IntelliJ, Eclipse (and offshoots), Netbeans support Project Lombok
