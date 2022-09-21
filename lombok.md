@@ -28,16 +28,16 @@ continues
 * var - mutable local variables
 * @NonNull - Null check, will throw NPE if parameter is null
 * @Cleanup - Will call close() on resource in finally block
-@Getter - Creates getter methods for all properties
+* @Getter - Creates getter methods for all properties
 * @Setter - Creates setter for all non-final properties
 * @ToString
-* Generates String of classname, and each field separated by commas
-* Optional parameter to include field names
-* Optional parameter to include call to the super toString method
+ * Generates String of classname, and each field separated by commas
+ * Optional parameter to include field names
+ * Optional parameter to include call to the super toString method
 * @EqualsAndHashCode
-* Generates implementations of equals(Object other) and hashCode()
-* By default will use all non-static, non-transient properties
-* Can optionally exclude specific properties
+ * Generates implementations of equals(Object other) and hashCode()
+ * By default will use all non-static, non-transient properties
+ * Can optionally exclude specific properties
 @NoArgsConstructor
 * Generates no args constructor
 * Will cause compiler error if there are final fields
