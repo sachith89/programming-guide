@@ -21,6 +21,8 @@ The source of configuration files can be a filesystem or even a git repository, 
 
 To put it in simple words, the configuration server is the point through which we access the application context configuration files.
 
+## Quick Example
+
 ```yaml
 spring:
   cloud:
