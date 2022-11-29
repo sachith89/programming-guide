@@ -22,11 +22,19 @@ The source of configuration files can be a filesystem or even a git repository, 
 To put it in simple words, the configuration server is the point through which we access the application context configuration files.
 
 ```yaml
-spring.application.name=config-client
-spring.profiles.active=development
-spring.cloud.config.uri=http://localhost:8888
-spring.cloud.config.username=root
-spring.cloud.config.password=s3cr3t
-spring.cloud.config.fail-fast=true
-management.security.enabled=false
+spring:
+  cloud:
+    config:
+      password: s3cr3t
+      username: root
+      uri: http://localhost:8888
+      fail-fast: 'true'
+  application:
+    name: config-client
+  profiles:
+    active: development
+management:
+  security:
+    enabled: 'false'
+
 ```
