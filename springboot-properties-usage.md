@@ -1,6 +1,6 @@
 # Springboot Properties
 
-group properties that we can override in the application context:
+Group properties that we can override in the application context:
 
 - Core properties (logging properties, thread properties)
 - Integration properties (RabbitMQ properties, ActiveMQ properties)
